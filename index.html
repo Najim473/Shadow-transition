@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <style>
+ div {
+  height: 200px;
+  width: 200px;
+  /* box-shadow: 0; */
+  /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset; */ 
+  /*if use insect shadow transition doesn't work*/ 
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px ;
+  transition: box-shadow 1s;
+  border: 1px solid #eee;
+}
+div:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  ;
+}
+      </style>
+   </head>
+   <body>
+      <div id = "demo">
+         <h1>This is demo text.</h1>
+      </div>
+   </body>
+</html>
